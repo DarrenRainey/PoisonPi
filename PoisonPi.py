@@ -3,7 +3,6 @@ import os
 import random
 
 while True:
-		Greetings = ['Hello', 'Hey', 'Greetings']
 		userInput = raw_input(">>> ")
 
 		# Routersploit Framework
@@ -22,6 +21,10 @@ while True:
   		   print("RSF      -       Routersploit Framework")
   		   print("Update   -       Get The Latest Version")
 		
+		# Update Function
+		elif userInput in ['update', 'Update', 'UPDATE']:
+			os.system("bash update.bash")
+			exit()
 		# IDA0005 Error Function
 		else:
 			Error = ['What was that ?', 'I"m sorry I did not understand you', 'Excuse me, What was that ?', 'Please say that again im not sure what you mean']
