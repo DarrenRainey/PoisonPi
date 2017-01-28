@@ -8,7 +8,7 @@ while True:
 
 		# Routersploit Framework
 		if userInput in ['rsf', 'RSF', 'Routersploit', 'RoutersploitFramework', 'RouterSploit', 'routersploit']:
-      os.system("python $HOME/Attack-Toolkit/routersploit/rsf.py
+      os.system("python $HOME/Attack-Toolkit/routersploit/rsf.py")
 
 		# Exit Function
 		elif userInput in ['exit', 'Exit', 'quit', 'Quit']:
