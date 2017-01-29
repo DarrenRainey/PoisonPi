@@ -12,6 +12,8 @@ if [ "$NEW" != "$CURRENT" ]; then
         rm -rf $HOME/PoisonPi
         cd $HOME
         git clone https://github.com/DarrenRainey/PoisonPi
+        cd $HOME/PoisonPi
+        sh setup.sh
         fi
         echo
 else
