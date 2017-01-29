@@ -9,6 +9,8 @@ if [ "$NEW" != "$CURRENT" ]; then
         if [[ ! $REPLY =~ ^[Nn]$ ]]
         then
         echo
+        rm -rf $HOME/PosinPi
+        cd $HOME
         git clone https://github.com/DarrenRainey/PosinPi
         fi
         echo
