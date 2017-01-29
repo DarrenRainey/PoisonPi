@@ -9,9 +9,9 @@ if [ "$NEW" != "$CURRENT" ]; then
         if [[ ! $REPLY =~ ^[Nn]$ ]]
         then
         echo
-        rm -rf $HOME/PosinPi
+        rm -rf $HOME/PoisonPi
         cd $HOME
-        git clone https://github.com/DarrenRainey/PosinPi
+        git clone https://github.com/DarrenRainey/PoisonPi
         fi
         echo
 else
