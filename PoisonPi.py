@@ -23,7 +23,7 @@ while True:
 		
 		# Update Function
 		elif userInput in ['update', 'Update', 'UPDATE']:
-			os.system("bash update.bash")
+			os.system("bash $HOME/PoisonPi/update.bash")
 			exit()
 		# IDA0005 Error Function
 		else:
