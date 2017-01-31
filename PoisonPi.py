@@ -14,12 +14,17 @@ while True:
 			print("Goodbye")
 			exit()
 
+		# Wifite Function
+		elif userInput in ['wifite', 'Wifite', 'WIFITE', 'Wifite2']:
+			os.system("python $HOME/Attack-Toolkit/wifite2/Wifite.py")
+			
 		# Help/Guide Function
 		elif userInput in ['HELP', 'Help', 'help']:
    		   print("PosionPi Menu By Darren Rainey")
    		   print("Exit     -       Exit Toolkit")
   		   print("RSF      -       Routersploit Framework")
   		   print("Update   -       Get The Latest Version")
+		   print("Wifite   -	   Wifite Automated WiFi Attack Tool")
 		
 		# Update Function
 		elif userInput in ['update', 'Update', 'UPDATE']:
