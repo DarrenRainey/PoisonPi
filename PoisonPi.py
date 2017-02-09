@@ -29,6 +29,7 @@ while True:
 		# Update Function
 		elif userInput in ['update', 'Update', 'UPDATE']:
 			os.system("bash $HOME/PoisonPi/update.bash")
+			os.system("rm router*.log")
 			exit()
 		# IDA0005 Error Function
 		else:
